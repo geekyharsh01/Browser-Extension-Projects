@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#generateButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#generateButton:hover {
+  background-color: #2980b9;
+}
+
+#memeContainer {
+  margin-top: 20px;
+}
+
+#memeImage {
+  max-width: 100%;
+  max-height: 100%;
+}
